@@ -45,7 +45,7 @@ O conjunto de dados consiste em três arquivos: ratings.csv, movies.csv e links.
 	- `title`: Nome do filme
 	- `genres`: Gênero do filme
 
-- **links.csv**	contém 0125 entradas de dados e 3 atributos.
+- **links.csv**	contém 9125 entradas de dados e 3 atributos.
 	- `movieId`: ID do filme
 	- `imdbId`: ID para buscar informações na API do IMDb
 	- `tmdbId`: ID para buscar informações na API do TMDb
