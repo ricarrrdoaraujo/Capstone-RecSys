@@ -32,4 +32,20 @@ jupyter notebook boston_housing_PT.ipynb
 Isso abrirá o o software e arquivo de projeto Jupyter Notebook em seu navegador.
 
 ### Dados
-O conjunto de dados consiste em três arquivos: ratings.csv, movies.csv e links.csv. ratings.csv contém 100004 entradas de dados e 4 atributos. movies.csv contém 9125 entradas de dados e 3 colunas. links.csv contém 0125 entradas de dados e 3 colunas. Os arquivos se encontram no mesmo diretório deste README e também podem ser encontrados na página do [MovieLens](https://grouplens.org/datasets/movielens/).
+O conjunto de dados consiste em três arquivos: ratings.csv, movies.csv e links.csv. Os arquivos se encontram no mesmo diretório deste README e também podem ser encontrados na página do [MovieLens](https://grouplens.org/datasets/movielens/).
+
+- **ratings.csv** contém 100004 entradas de dados e 4 atributos.
+	- `userId`: ID do usuário
+	- `movieId`: ID do filme classificado pelo usuário
+	- `rating`: Nota do usuário para o filme. Em escala de 5 estrelas, com incrementos de meia (0.5) estrela
+	- `timestamp`: Horário da classificação em formato timestamp
+
+- **movies.csv** contém 9125 entradas de dados e 3 atributos.
+	- `movieId`: ID do filme
+	- `title`: Nome do filme
+	- `genres`: Gênero do filme
+
+- **links.csv**	contém 0125 entradas de dados e 3 atributos.
+	- `movieId`: ID do filme
+	- `imdbId`: ID para buscar informações na API do IMDb
+	- `tmdbId`: ID para buscar informações na API do TMDb
